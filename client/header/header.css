@@ -1,0 +1,41 @@
+.topHeader {
+   font-family : 'Anton', sans-serif;
+   font-weight : bold;
+   color: SlateGrey;
+   width : 100%;
+   text-align: center;
+   display: block;
+   padding-top: 15%;
+   padding-bottom: 15%;
+   border-bottom: 5px solid SlateGrey;
+}
+
+.lastName {
+  color: LightCoral;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+
+.firstButton {
+    border: 3px solid SlateGrey;
+    padding: 15px 50px;
+    border-radius: 5px;
+    color: LightCoral;
+    margin: 0 15px;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.secondButton {
+  display: inline-block;
+  border: 3px solid LightCoral;
+  background-color: LightCoral;
+  color: SlateGrey;
+  border-radius: 5px;
+  padding: 15px 50px;
+  margin: 0 15px;
+  min-width: 200px;
+}

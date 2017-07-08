@@ -1,0 +1,7 @@
+<template name="header">
+  <nav>
+    <div class="header">
+      François Gayraud
+    </div>
+  </nav>
+</template>
