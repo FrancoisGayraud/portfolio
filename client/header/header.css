@@ -1,7 +1,7 @@
 .topHeader {
    font-family : 'Anton', sans-serif;
    font-weight : bold;
-   color: SlateGrey;
+   color: lightcoral;
    width : 100%;
    text-align: center;
    display: block;
@@ -11,7 +11,7 @@
 }
 
 .lastName {
-  color: LightCoral;
+  color: SlateGrey;
 }
 
 h1 {
@@ -48,4 +48,31 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     color: SlateGrey;
+}
+
+.socialNetwork {
+    position: fixed;
+    max-width: 5%;
+    min-width: 90px;
+    left: -1%;
+    -webkit-transition: 1s ease-in-out;
+    -moz-transition: 1s ease-in-out;
+    -o-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+.socialNetwork:hover {
+    -webkit-transform: translate(3em,0);
+    -moz-transform: translate(3em,0);
+    -o-transform: translate(3em,0);
+    -ms-transform: translate(3em,0);
+    transform: translate(3em,0);
+}
+
+.linkedin {
+    top: 40%;
+}
+
+.twitter {
+    top: 50%;
 }
