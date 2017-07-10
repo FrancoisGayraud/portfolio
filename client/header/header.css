@@ -5,10 +5,10 @@
     width : 100%;
     text-align: center;
     display: block;
-    padding-top: 5%;
+    padding-top: 3%;
     padding-bottom: 5%;
-    border-bottom: 3px solid SlateGrey;
-    background-image: url(/assets/splashpic.png);
+    border-bottom: 3px solid Slategrey;
+    background-image: url(/assets/keyboard.jpg);
     background-position: right;
     background-repeat: no-repeat;
     max-height: 50vh;
@@ -20,13 +20,14 @@
 
 .titleName {
     /* RGBa with 0.6 opacity */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(256, 256, 256, 0.8);
     /* For IE 5.5 - 7*/
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
     padding: 5%;
     border-radius: 5px;
+    margin-bottom: 6%;
 }
 
 .lastName {
@@ -43,24 +44,15 @@ h2 {
     font-size: 60px;
     color: SlateGrey;
     text-align: center;
-    margin-top: 5%;
 }
 
-.firstButton {
-    border: 3px solid SlateGrey;
-    padding: 15px 50px;
-    border-radius: 5px;
-    color: LightCoral;
-    margin: 0 15px;
-    min-width: 200px;
-    display: inline-block;
-    text-decoration: none;
-    background-color: white;
+.row {
+    margin-bottom: 0px!important;
 }
 
 .secondButton {
     padding: 15px 50px;
-    border: 3px solid LightCoral;
+    border: 2px solid white;
     background-color: LightCoral;
     margin: 0 15px;
     min-width: 200px;
@@ -89,7 +81,7 @@ h2 {
 }
 
 .linkedin {
-    top: 45vh;
+    top: 40vh;
 }
 
 .twitter {
